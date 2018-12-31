@@ -1,0 +1,8 @@
+[package]
+name = "tiny-hello-rs"
+version = "0.1.0"
+authors = ["Martin Raison <martinraison@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+libc = { version = "0.2.14", default-features = false }
